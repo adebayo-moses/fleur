@@ -86,3 +86,8 @@ body {
 .dark .jumbo::after {
   background-image: var(--stripesDark), var(--rainbow);
 }
+
+.section.about-cards-section {
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+}
