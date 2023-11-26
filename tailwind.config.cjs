@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-const config = {
+// const config = {
+module.exports = {
+  purge: [],
   darkMode: "class", // This enables dark mode
   theme: {
     extend: {},
@@ -12,4 +14,4 @@ const config = {
   },
 };
 
-export default config;
+// export default config;
